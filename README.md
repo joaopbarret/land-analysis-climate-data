@@ -292,6 +292,6 @@ jupyter lab analyse_H1_H2_H3.ipynb
 
 Project DSIA 2025/2026, Télécom Paris.
 
-**Team:** Xisco Moncet · [João Pedro Barreto](https://github.com/joaopbarret) · Naoures Abassi · Youssef Chebil · Lise Peguet
+**Team:** [Xisco Moncet](https://github.com/xiscoooo) · [João Pedro Barreto](https://github.com/joaopbarret) · Naoures Abassi · Youssef Chebil · Lise Peguet
 
 **Supervisor:** Anne-Flore Cabouat
