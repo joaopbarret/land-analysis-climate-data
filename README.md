@@ -1,4 +1,4 @@
-# Land Analysis of Climate Data Visualizations
+# Lang Analysis of Climate Data Visualizations
 
 When someone describes a map, how much of what they say comes from the map — and how much from what
 they already knew before they looked at it?
