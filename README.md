@@ -198,22 +198,10 @@ Excel workbook, 9 sheets    H1_Full_Results · H2_Full_Results · Corpus_H1 ·
 **The participant data is not published in this repository.** The corpus consists of interview
 transcripts and post-task surveys from ten identifiable people — researchers and engineers in a small
 professional community — and the surveys record age, gender, degree, occupation and research
-speciality alongside the analytic variables. Pseudonyms (P1–P10) do not anonymise that combination, so
-the transcripts, the surveys and the participant profile stay out of the public repository and are
-excluded by `.gitignore`.
+speciality alongside the analytic variables.
 
 The notebook is committed **with its stored outputs**, so every number reported above is verifiable
 without the data.
-
-The empty data folders are kept so the expected layout is visible. To reproduce the analysis, drop the
-files in:
-
-```
-Preprocessing/                        P{1..10}-audio-order{A,B}-final.xlsx
-Tasks and results/                    results-survey-A_modified.xlsx
-                                      results-survey-B_modified.xlsx
-Annotated and corrected transcripts/  input to preprocessing.ipynb
-```
 
 ### Corpus schema
 
@@ -279,10 +267,6 @@ pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 jupyter lab analyse_H1_H2_H3.ipynb
 ```
-
-The notebook's first cells try to unzip `Preprocessing.zip` and `Tasks and results.zip`; without them
-it prints a message and continues, so the committed outputs remain readable. With the data folders
-populated, the whole pipeline runs end to end and writes the nine-sheet workbook.
 
 ## Limitations
 
